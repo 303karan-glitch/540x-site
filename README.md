@@ -24,3 +24,8 @@ Email records (MX, SPF) are left exactly as they were.
 
 ## Change log
 - 31 Oct 2026: new site built from the old Squarespace copy: all projects, photos moved off Squarespace's servers, cleaner design, template filler text removed (Nirvana), pincode 360005.
+
+## Copyright
+© 540X Partners. All rights reserved. The text, photographs, drawings and design in this repository belong to
+540X Partners and the respective photographers. The repository is public only so GitHub Pages can host the site
+for free; no licence is granted to copy, reuse or redistribute any of it.
