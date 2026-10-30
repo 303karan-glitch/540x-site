@@ -1,0 +1,209 @@
+{
+ "home": {
+  "intro": [
+   "540X is a collaborative design practice founded by five principal partners, offering expertise in architecture, interior design, and visual narratives. Engaging in experiential architecture and timeless designs, we intend to craft spaces that redefine their surroundings, focusing on space-making, humane environments, and meaningful impact.",
+   "Since its inception, 540X has crafted high-end residential, Institutional, and hospitality spaces with a focus on timeless designs enriched with local influences. By blending the fresh perspectives of young minds with seasoned expertise, 540X continuously pushes the boundaries of design, creating environments that inspire and endure. With its roots in India and aspirations that extend globally, 540X remains dedicated to shaping spaces that are timeless, meaningful, and sustainable."
+  ],
+  "principles": [
+   {
+    "title": "Experience",
+    "text": "Spaces are shaped by the stories they hold. We design to evoke emotions and craft moments."
+   },
+   {
+    "title": "Interactive Spaces",
+    "text": "Design is a dialogue between space and its users. Our work invites interaction, fostering connections through thoughtful layouts and purposeful design elements."
+   },
+   {
+    "title": "Details",
+    "text": "Details are where design transforms into art. They are the silent narrators, shaping how a space feels, functions, and endures. It is through these intricacies that the ordinary becomes extraordinary."
+   },
+   {
+    "title": "Playful",
+    "text": "Design can be serious, but it doesn’t have to feel that way. We infuse a sense of playfulness, using unexpected forms, vibrant colours, and unique ideas to add joy and personality to every project."
+   },
+   {
+    "title": "Articulation",
+    "text": "Precision is the hallmark of great design. We articulate our vision with clarity, ensuring every line, material, and space comes together harmoniously to tell a cohesive and compelling story."
+   },
+   {
+    "title": "Climate",
+    "text": "Sustainability starts with understanding. By embracing the local climate, culture, and environment, we create designs that are responsive, respectful, and built to last."
+   },
+   {
+    "title": "Context",
+    "text": "We exist in a larger narrative. By understanding environment, culture, and purpose, we design in harmony with the surroundings in mind, ensuring the space feels grounded yet timeless."
+   }
+  ]
+ },
+ "studio": {
+  "firm": [
+   "At 540X, our journey began with the shared vision of five architects, each bringing unique expertise and perspectives to the table. We set out to craft spaces that reflect innovation, timelessness, and human connection. Our approach is rooted in collaboration, fostering a dynamic work environment where creativity thrives, fresh ideas are consistently encouraged, and innovation stays an integral part of our studio ensuring that our work is not only driven by creativity but also guided by a shared commitment to excellence.",
+   "At the core of our practice, we blend a dedication to structural clarity with a passion for infusing life and vitality into spaces. We seamlessly integrate refined aesthetic sensibilities with a deep understanding of materials and details, striving to create environments that resonate with timeless quality and human-centric design. As a multidisciplinary practice, we explore architecture’s role in enhancing the quality of life."
+  ],
+  "team": [
+   {
+    "name": "Karmaraj Rana",
+    "role": "Co-Founder & Principal Architect",
+    "bio": "Ar. Karmaraj Rana is an accomplished architect with a B.Arch degree from IPSA, Rajkot. His architectural philosophy is firmly grounded in the authentic expression of materials and structural articulation, which are central to his design approaches. He is a strong advocate of clean aesthetics and skillfully orchestrates the interplay of volumes and spaces to create both clear and purposeful designs. Committed to collaboration, Karmaraj leads a dedicated team of designers, all united by a deep passion for exploring and refining architectural expressions through practice.",
+    "photo": "team-karmaraj.jpg"
+   },
+   {
+    "name": "Abhishek Patel",
+    "role": "Co-Founder & Principal Architect",
+    "bio": "Ar. Abhishek Patel is a skilled architect and interior designer with expertise spanning residential, institutional, and commercial projects. His design philosophy reflects a commitment to sustainability and a deep appreciation for nature. With a focus on thoughtful integration of form and function, Abhishek brings a sense of balance and purpose to every project, fostering designs that inspire and endure.",
+    "photo": "team-abhi.jpg"
+   },
+   {
+    "name": "Zenil Mahendi Ali",
+    "role": "Co-Founder & Principal Designer",
+    "bio": "Ar. Zenil Mahendi Ali is a talented architect with a B.Arch degree from the Indubhai Parekh School of Architecture. Her journey into architecture is deeply rooted in her passion for art, culture, and the transformative power of ideas. An advocate of lifelong learning, Zenil continually explores how architecture shapes identities, thoughts, and environments. Zenil’s creative pursuits extend beyond architecture to sculpting, painting, and eco-printing, reflecting her artistic sensibilities. With an eye for detail and a love for cultural exploration, Zenil’s work embodies innovation and artistic depth, enriching spaces with meaning and vitality.",
+    "photo": "team-zenil.jpg"
+   },
+   {
+    "name": "Jeet Gajera",
+    "role": "Co-Founder & Principal Architect",
+    "bio": "Ar. Jeet Gajera is a distinguished architect with a B.Arch degree from IPSA, Rajkot. His deep commitment to crafting timeless architecture is complemented by his unique perspective as both an architect and furniture designer. His meticulous attention to detail and expertise in colour, finishes, and materials are evident in his works, which thoughtfully add sensorially rich experiences to spaces. His designs are characterized by their ability to infuse life and vitality into environments, creating enduring and meaningful architectural expressions.",
+    "photo": "team-jeet.jpg"
+   },
+   {
+    "name": "Karan Solanki",
+    "role": "Co-Founder & Creative Head",
+    "bio": "Karan is an India-based architect and visual artist. Through an emotional approach to architecture, he is known for his bold, expressive use of space and form, often merging modernism with classical influences. His designs emphasize the relationship between architecture and human experience, aiming to evoke feelings and emotions in the people who interact with his buildings. His philosophy is rooted in creating a dialogue between architecture, history, and nature, and his works often feature monumental forms and the use of symbolic elements, merging the past with modernist sensibilities. With an experience of five years in architectural design & visualisation, Karan has published works on popular architecture websites like Archdaily and ThinkMatter Archives.",
+    "photo": "team-karan.jpg"
+   }
+  ],
+  "people": [
+   {
+    "name": "Mehul Jagatiya",
+    "role": "Senior Architect"
+   },
+   {
+    "name": "Yashi Punjabi",
+    "role": "Intern"
+   }
+  ],
+  "former": [
+   {
+    "year": "2024",
+    "role": "Interior Designer",
+    "name": "Kuldeep Fefar"
+   },
+   {
+    "year": "2023",
+    "role": "Project Architect",
+    "name": "Dhruvi Satodiya"
+   },
+   {
+    "year": "2022",
+    "role": "Senior Architect",
+    "name": "Mehul Jagatiya"
+   },
+   {
+    "year": "2021",
+    "role": "Intern Designer",
+    "name": "Yash Rathod"
+   }
+  ]
+ },
+ "services": [
+  {
+   "title": "Architecture & Design",
+   "items": [
+    {
+     "title": "Architecture Design",
+     "text": "From concept to completion, our Architecture Design services focus on crafting structures that are as functional as they are aesthetically compelling. We integrate context, sustainability, and purpose to create environments that leave a lasting impact."
+    },
+    {
+     "title": "Interior Design",
+     "text": "Our Interior Design solutions transform spaces into expressions of personality and purpose. By carefully curating materials, lighting, textures, and layouts, we create interiors that blend style with comfort, elevating everyday living and working experiences."
+    },
+    {
+     "title": "Master Planning",
+     "text": "Through Master Planning, we envision and design cohesive layouts for large-scale developments. We ensure optimal functionality, connectivity, and sustainability while reflecting the client’s vision for a harmonious environment."
+    },
+    {
+     "title": "Furniture & Product Design",
+     "text": "Our Furniture & Product Design services blend craftsmanship, innovation, and comfort to create bespoke pieces that enhance the spaces they inhabit. we prioritize ergonomic designs that ensure usability without compromising on style or quality. Each creation reflects our commitment to aesthetics and comfort, elevating the user experience."
+    },
+    {
+     "title": "Turnkey Solutions",
+     "text": "Our Turnkey Solutions simplify your journey from vision to reality. From design to execution, we manage every detail, delivering ready-to-use spaces that meet the highest standards of quality and design excellence."
+    },
+    {
+     "title": "Consultation & Advisory",
+     "text": "Through Consultation & Advisory, we offer guidance for clients in making informed decisions at any stage of their projects. Our expertise ensures clarity and confidence in achieving the desired outcome."
+    },
+    {
+     "title": "3D Visualisation",
+     "text": "With 3D Visualisation, we bring your ideas to life before they are built. Our immersive visuals provide a clear understanding of design concepts, helping you envision the final result and make confident decisions with 3D IMAGES, VR & WALKTHROUGHS."
+    },
+    {
+     "title": "Brand Integration (Retail & Hospitality)",
+     "text": "We specialize in Brand Integration for retail and hospitality projects, weaving the essence of your brand into every aspect of the design. From spatial storytelling to visual identity, we create experiences that resonate with your audience."
+    },
+    {
+     "title": "Landscape Design",
+     "text": "Our Landscape Design services focus on creating outdoor spaces that complement architectural designs while promoting well-being and sustainability. From lush gardens to functional outdoor layouts, we design landscapes that are both serene and inspiring."
+    }
+   ]
+  },
+  {
+   "title": "Strategic Visual Narratives",
+   "items": [
+    {
+     "title": "Brand Design",
+     "text": "We build the foundation of your brand's identity. From logo creation to defining brand aesthetics, we ensure your brand is distinct, memorable, and aligned with your vision and market goals."
+    },
+    {
+     "title": "Visual Identity",
+     "text": "Visual Identity is the face of your brand. We design cohesive and compelling visuals, including logos, typography, color palettes, and imagery, that resonate with your audience and distinguish your brand across platforms."
+    },
+    {
+     "title": "Brand Guidelines",
+     "text": "We provide a comprehensive framework to ensure your brand is represented consistently and professionally. These guidelines cover visual elements, tone of voice, and applications, empowering your team to maintain a unified brand image."
+    },
+    {
+     "title": "Brand Naming",
+     "text": "With Brand Naming, we develop names that capture your brand’s essence and resonate with your audience. Whether it’s modern, traditional, or avant-garde, we ensure your brand name stands out and leaves a lasting impression."
+    },
+    {
+     "title": "Brand Strategy",
+     "text": "Through Brand Strategy, we align your brand’s goals with audience expectations. By defining your brand’s positioning, messaging, and unique value, we create a roadmap to guide every aspect of your brand’s growth and presence."
+    },
+    {
+     "title": "Social & Digital Presence",
+     "text": "Our Social & Digital Presence services enhance your brand's visibility and engagement in the digital world. From creating impactful content to managing campaigns, we ensure your brand thrives on social platforms and beyond."
+    },
+    {
+     "title": "Brand Experience",
+     "text": "We curate Brand Experiences that forge lasting connections with your audience. Through immersive designs and meaningful interactions, we ensure your brand’s story comes alive in every customer touchpoint."
+    },
+    {
+     "title": "Packaging Design",
+     "text": "With Packaging Design, we make first impressions count. We create designs that are visually striking, functional, and reflective of your brand's values, helping your products stand out in competitive markets."
+    },
+    {
+     "title": "Brand Management",
+     "text": "Our Brand Management services keep your brand dynamic and relevant. We oversee every aspect of your brand’s representation, ensuring it evolves with market trends while staying true to its core identity."
+    },
+    {
+     "title": "Print & Digital Adverts",
+     "text": "Through Print & Digital Adverts, we craft compelling campaigns that drive results. Whether it’s eye-catching print materials or innovative digital ads, we ensure your brand message reaches and resonates with your target audience."
+    }
+   ]
+  }
+ ],
+ "contact": {
+  "firm": "540X Partners",
+  "address": [
+   "1303, Space Odyssey",
+   "150ft Ring Road",
+   "Rajkot, Gujarat 360005",
+   "India"
+  ],
+  "email": "mail@540xpartners.com",
+  "phone": "+91 9099 527627",
+  "instagram": "https://www.instagram.com/540xpartners",
+  "linkedin": "https://www.linkedin.com/company/540x-partners"
+ }
+}
