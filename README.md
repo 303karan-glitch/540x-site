@@ -18,6 +18,13 @@ Or just ask Claude: "add project X with these photos", "change the phone number"
 - `tools/extract_old_site.py`, `tools/extract_pages.py`: one-time copy of the old site (Oct 2026).
 - Old addresses (e.g. `/portfolio-1-1/project-one-f5w4d-bl9jz.html`) forward to the new pages, so Google links keep working.
 
+## Preview before launch
+- Branch `preview` holds a build made with `python tools/build.py --preview`: every link starts with
+  `/540xpartners-website/` and there is no CNAME, so it works at https://303karan-glitch.github.io/540xpartners-website/
+- GitHub Pages: Settings → Pages → Branch `preview`, folder `/docs` (no custom domain yet). Share that link with friends.
+- Launch: build normally (`python tools/build.py`, which writes the CNAME), merge into `main`, switch Pages to `main` /docs,
+  set the custom domain 540xpartners.com, then change the DNS at GoDaddy (see below).
+
 ## Domain
 DNS for 540xpartners.com points at GitHub Pages (A records 185.199.108.153, .109.153, .110.153, .111.153; `www` CNAME to the GitHub Pages address).
 Email records (MX, SPF) are left exactly as they were.

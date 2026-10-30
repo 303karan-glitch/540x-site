@@ -1,6 +1,7 @@
 """Build the 540X website from content/*.json into docs/ (GitHub Pages serves docs/).
 
-    python tools/build.py
+    python tools/build.py              # live site on 540xpartners.com
+    python tools/build.py --preview    # preview at 303karan-glitch.github.io/540xpartners-website/ (before launch)
 
 Edit content/site.json (projects) or content/pages.json (home, studio, services, contact),
 put photos in docs/images/, run this, then commit and push.
@@ -9,6 +10,7 @@ import html
 import json
 import re
 import shutil
+import sys
 from pathlib import Path
 
 from PIL import Image
@@ -18,6 +20,8 @@ OUT = ROOT / "docs"
 IMG = OUT / "images"
 THUMB = IMG / "thumbs"
 DOMAIN = "540xpartners.com"
+PREVIEW = "--preview" in sys.argv
+BASE = "/540xpartners-website" if PREVIEW else ""   # GitHub's preview address lives one folder down
 site = json.loads((ROOT / "content" / "site.json").read_text(encoding="utf-8"))
 pages = json.loads((ROOT / "content" / "pages.json").read_text(encoding="utf-8"))
 contact = pages["contact"]
@@ -106,7 +110,15 @@ def shell(title, body, desc="", path="/", og=None, home=False):
 """
 
 
+def based(text):
+    """In preview mode every site-relative link gets the GitHub folder in front of it."""
+    if not BASE:
+        return text
+    return re.sub(r'((?:href|src)=")/(?!/)', r"\1" + BASE + "/", text).replace("url=/", f"url={BASE}/")
+
+
 def write(path, text):
+    text = based(text)
     f = OUT / path.strip("/") / "index.html" if not path.endswith(".html") else OUT / path.strip("/")
     f.parent.mkdir(parents=True, exist_ok=True)
     f.write_text(text, encoding="utf-8")
@@ -292,9 +304,10 @@ def build_misc():
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
                                      + "".join(f"<url><loc>https://{DOMAIN}{u}</loc></url>" for u in urls) + "</urlset>\n", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: https://{DOMAIN}/sitemap.xml\n", encoding="utf-8")
-    (OUT / "CNAME").write_text(DOMAIN + "\n", encoding="utf-8")
+    if not PREVIEW:   # the domain file would send the preview address to 540xpartners.com before it is ready
+        (OUT / "CNAME").write_text(DOMAIN + "\n", encoding="utf-8")
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
-    (OUT / "404.html").write_text(shell("Not found", '<section class="wrap page-head"><h1>Page not found</h1><p><a class="more" href="/">Back to home →</a></p></section>', path="/404"), encoding="utf-8")
+    (OUT / "404.html").write_text(based(shell("Not found", '<section class="wrap page-head"><h1>Page not found</h1><p><a class="more" href="/">Back to home →</a></p></section>', path="/404")), encoding="utf-8")
     first = next((p["images"][0] for s in site["sections"] for p in s["projects"] if p["images"]), None)
     if first and not (IMG / "og.jpg").exists():
         with Image.open(IMG / first) as im:
@@ -316,7 +329,7 @@ def main():
             build_project(s, p, ps[i - 1] if i else None, ps[i + 1] if i + 1 < len(ps) else None)
     build_studio(); build_services(); build_contact(); build_redirects(); build_misc()
     n = sum(1 for _ in OUT.rglob("*.html"))
-    print(f"built {n} pages into {OUT}")
+    print(f"built {n} pages into {OUT}" + (" (PREVIEW for github.io)" if PREVIEW else " (live, 540xpartners.com)"))
 
 
 if __name__ == "__main__":
