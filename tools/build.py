@@ -1,7 +1,7 @@
 """Build the 540X website from content/*.json into docs/ (GitHub Pages serves docs/).
 
     python tools/build.py              # live site on 540xpartners.com
-    python tools/build.py --preview    # preview at 303karan-glitch.github.io/540xpartners-website/ (before launch)
+    python tools/build.py --preview    # preview at 303karan-glitch.github.io/540x-site/ (before launch)
 
 Edit content/site.json (projects) or content/pages.json (home, studio, services, contact),
 put photos in docs/images/, run this, then commit and push.
@@ -21,7 +21,8 @@ IMG = OUT / "images"
 THUMB = IMG / "thumbs"
 DOMAIN = "540xpartners.com"
 PREVIEW = "--preview" in sys.argv
-BASE = "/540xpartners-website" if PREVIEW else ""   # GitHub's preview address lives one folder down
+REPO = "540x-site"
+BASE = f"/{REPO}" if PREVIEW else ""   # GitHub's preview address lives one folder down
 site = json.loads((ROOT / "content" / "site.json").read_text(encoding="utf-8"))
 pages = json.loads((ROOT / "content" / "pages.json").read_text(encoding="utf-8"))
 contact = pages["contact"]

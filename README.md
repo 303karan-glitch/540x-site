@@ -20,7 +20,7 @@ Or just ask Claude: "add project X with these photos", "change the phone number"
 
 ## Preview before launch
 - Branch `preview` holds a build made with `python tools/build.py --preview`: every link starts with
-  `/540xpartners-website/` and there is no CNAME, so it works at https://303karan-glitch.github.io/540xpartners-website/
+  `/540x-site/` and there is no CNAME, so it works at https://303karan-glitch.github.io/540x-site/
 - GitHub Pages: Settings → Pages → Branch `preview`, folder `/docs` (no custom domain yet). Share that link with friends.
 - Launch: build normally (`python tools/build.py`, which writes the CNAME), merge into `main`, switch Pages to `main` /docs,
   set the custom domain 540xpartners.com, then change the DNS at GoDaddy (see below).
